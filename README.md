@@ -1,3 +1,4 @@
+
 ## Índice
 
 1. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
@@ -36,6 +37,8 @@ Accedemos dentro de nuestra carpeta por medio del comando "cd", una vez dentro e
 Esto nos generará el famoso fichero "Vagrantfile" con el cual empezaremos a trabajar.
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/c16e468d-a51c-4b51-af79-2f7d04e1f3ab)
+
+Ahora editamos nuestro ***"Vagrantfile"*** 
 
 
 Antes que nada, tenemos que tener nuestro vagrant instalado, para ello iremos a su pagina oficial y lo descargaremos e instalaremos.
