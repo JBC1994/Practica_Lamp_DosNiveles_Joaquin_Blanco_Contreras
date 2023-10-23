@@ -20,10 +20,6 @@ Antes que nada, tenemos que tener nuestro vagrant instalado, para ello iremos a 
 Una vez instalado vagrant empezaremos a trabajar, lo primero de todo es crearnos un directorio en el cual poder trabajar de manera facil y sencilla, en el cual tambien poder meter nuestros script de aprovisionamiento. 
 Os muestro un ejemplo de la organización:
 
-![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/606ffe90-2fc2-4605-9c22-6c2971e791be)
-
-En este caso tenemos un directorio llamado ; C:\Users\JBC\Documents\IMPLANTACION DE APLIACIONES WEB\Practica_Lamp donde "Practica_Lamp" será donde se desplieguen las aplicaciones. Lo que hay dentro de la carpeta os lo explicaré paso a paso. 
-
 
 
 ## Componentes de la Pila LAMP
