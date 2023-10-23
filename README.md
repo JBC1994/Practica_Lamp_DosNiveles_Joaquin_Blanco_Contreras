@@ -14,8 +14,13 @@ En esta práctica, pondremos a prueba nuestros conocimientos sobre la Arquitectu
 
 
 ## Escenario de la practica
+Nuestra práctica consistirá en lo siguiente: Tendremos dos máquinas con dos servicios distintos pero desplegadas con nuestra herramienta **Vagrant** que nos permitirá llevar a cabo este escenario.
+1) Tenemos una maquina con conexión a internet NAT, está será en la que tengamos los servicios "Apache" , "PHP", MariaDB-client instalados, a su vez tiene que hacer ping con nuestro servidor "MariaDB".
+2) Tenemos una segunda maquina como hemos mencionado anteriormente en la cual tendremos instalado el Serviodor "MariaDB", está no tendrá salida a internet, pero si podrá hacer ping con el servidor apache.
 
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/df903f78-0af6-42e8-aa14-086280cea2aa)
 
+Trabajaremos con las IP's que se representan en el esquema.
 
 
 ## Instalación Pila-Lamp
