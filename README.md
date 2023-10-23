@@ -25,7 +25,7 @@ Trabajaremos con las IP's que se representan en el esquema.
 
 ## Instalación Pila-Lamp
 
-Bien, hemos visto que con nuestra introducción nos ha quedado mas claro lo que es un entorno "Pila LAMP". Ahora procederemos a desarrollar dicho entorno. 
+Ahora procederemos a desarrollar dicho escenario mencionado antes con nuestro Vagrantfile, pero antes de eso procederemos a configurar todo nuestro entorno. 
 Antes que nada, tenemos que tener nuestro vagrant instalado, para ello iremos a su pagina oficial y lo descargaremos e instalaremos.
 Una vez instalado vagrant empezaremos a trabajar, lo primero de todo es crearnos un directorio en el cual poder trabajar de manera facil y sencilla, en el cual tambien poder meter nuestros script de aprovisionamiento. 
 Os muestro un ejemplo de la organización:
