@@ -39,11 +39,10 @@ Esto nos generará el famoso fichero "Vagrantfile" con el cual empezaremos a tra
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/c16e468d-a51c-4b51-af79-2f7d04e1f3ab)
 
 Ahora editamos nuestro ***"Vagrantfile"*** 
+Antes que nada, trabajaremos con el siguiente box, ***config.vm.box = "debian/contrib-buster64"*** 
+Desde este enlace podremos ver los box que tiene vagrant. https://app.vagrantup.com/boxes/search
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/90795c2e-3296-470c-847f-02cffe81b084)
 
-
-Antes que nada, tenemos que tener nuestro vagrant instalado, para ello iremos a su pagina oficial y lo descargaremos e instalaremos.
-Una vez instalado vagrant empezaremos a trabajar, lo primero de todo es crearnos un directorio en el cual poder trabajar de manera facil y sencilla, en el cual tambien poder meter nuestros script de aprovisionamiento. 
-Os muestro un ejemplo de la organización:
 
 
 
