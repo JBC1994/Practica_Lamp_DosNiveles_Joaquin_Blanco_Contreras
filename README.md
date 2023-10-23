@@ -25,7 +25,19 @@ Trabajaremos con las IP's que se representan en el esquema.
 
 ## Instalación Pila-Lamp
 
-Ahora procederemos a desarrollar dicho escenario mencionado antes con nuestro Vagrantfile, pero antes de eso procederemos a configurar todo nuestro entorno. 
+Ahora procederemos a desarrollar el escenario mencionado antes con nuestro Vagrantfile, pero antes de eso procederemos a configurar todo nuestro entorno. 
+Antes que nada, necesitamos tener instalado vagrant.
+Una vez instalado vagrant, ejecutaremos nuestro CMD de windows. 
+En el CMD de windows nos dirigimos o nos creamos un directorio donde vayamos a trabajar en mi caso lo hice así. 
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/08dd2c7c-2039-400a-9e84-f78de5cd2dac)
+
+Accedemos dentro de nuestra carpeta por medio del comando "cd", una vez dentro ejecutamos el comando ***"vagrant init***.
+Esto nos generará el famoso fichero "Vagrantfile" con el cual empezaremos a trabajar.
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/c16e468d-a51c-4b51-af79-2f7d04e1f3ab)
+
+
 Antes que nada, tenemos que tener nuestro vagrant instalado, para ello iremos a su pagina oficial y lo descargaremos e instalaremos.
 Una vez instalado vagrant empezaremos a trabajar, lo primero de todo es crearnos un directorio en el cual poder trabajar de manera facil y sencilla, en el cual tambien poder meter nuestros script de aprovisionamiento. 
 Os muestro un ejemplo de la organización:
