@@ -13,7 +13,7 @@ En esta práctica, pondremos a prueba nuestros conocimientos sobre la Arquitectu
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/b893fabd-652d-4ab7-ba1c-a7851c2531f7)
 
 
-##Escenario de la practica
+## Escenario de la practica
 
 
 
