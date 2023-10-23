@@ -1,7 +1,7 @@
 ## Índice
 
-1. [Introducción Pila-Lamp](#Introducción Pila-Lamp)
-   1.1. [Instalación Pila-Lamp](#Instalación Pila-Lamp)
+1. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
+   1.1. [Instalación Pila-Lamp](#Instalación-Pila-Lamp)
    1.2. [Componentes de la Pila LAMP](#componentes-de-la-pila-lamp)
    1.3. [Importancia de la Pila LAMP](#importancia-de-la-pila-lamp)
 
