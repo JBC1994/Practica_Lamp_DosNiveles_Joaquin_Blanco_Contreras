@@ -19,7 +19,7 @@ Nuestra práctica consistirá en lo siguiente: Tendremos dos máquinas con dos s
 2) Tenemos una segunda máquina como hemos mencionado anteriormente en la cual tendremos instalado el Servidor "MariaDB", está no tendrá salida a internet, pero si podrá hacer ping con el servidor apache.
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/df903f78-0af6-42e8-aa14-086280cea2aa)
 3) Obligatorio tener una carpeta compartida entre ambas máquinas.
-4)Trabajaremos con las IP 's que se representan en el esquema.
+4) Trabajaremos con las IP 's que se representan en el esquema.
 
 ## Instalación Pila-Lamp
 
@@ -35,7 +35,7 @@ Esto nos generará el famoso fichero "Vagrantfile" con el cual empezaremos a tra
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/c16e468d-a51c-4b51-af79-2f7d04e1f3ab)
 
-Ahora editamos nuestro ***"Vagrantfile"*** 
+Ahora editamos nuestro ***"Vagrantfile"***, pero
 Antes que nada, trabajaremos con el siguiente box, ***config.vm.box = "debian/contrib-buster64"*** 
 Desde este enlace podremos ver los box que tiene vagrant. https://app.vagrantup.com/boxes/search
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/90795c2e-3296-470c-847f-02cffe81b084)
