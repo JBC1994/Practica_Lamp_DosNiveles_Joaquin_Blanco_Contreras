@@ -2,7 +2,7 @@
 ## Índice
 
 1. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
-   1.1. [Escenario de la practica](#Escenario-de-la-practica)
+   1.1. [Escenario de la practica](#Escenario-de-la-práctica)
    1.2. [Instalación Pila-Lamp](#Instalación-Pila-Lamp)
    1.3. [Importancia de la Pila LAMP](#importancia-de-la-pila-lamp)
 
