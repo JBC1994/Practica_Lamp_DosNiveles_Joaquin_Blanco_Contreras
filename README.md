@@ -1,6 +1,5 @@
 ## <p align="center">Índice</p>
-
-
+## <p align="right">Joaquin Blanco Contreras Curso: ASIR2</p>
 1.0. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
 -    1.1. [Escenario De La practica](#Escenario-de-la-práctica)
 -    1.2. [Configuración Vagrantfile](#Configuración-Vagrantfile)
@@ -25,6 +24,7 @@ En esta práctica, pondremos a prueba nuestros conocimientos sobre la Arquitectu
 
 
 ## Escenario de la práctica
+
 Nuestra práctica consistirá en lo siguiente: Tendremos dos máquinas con dos servicios distintos pero desplegadas con nuestra herramienta **Vagrant** que nos permitirá llevar a cabo este escenario.
 1) Tenemos una máquina con conexión a internet NAT, está será en la que tengamos los servicios "Apache" , "PHP", MariaDB-client instalados, a su vez tiene que hacer ping con nuestro servidor "MariaDB".
 2) Tenemos una segunda máquina como hemos mencionado anteriormente en la cual tendremos instalado el Servidor "MariaDB", está no tendrá salida a internet, pero si podrá hacer ping con el servidor apache.
