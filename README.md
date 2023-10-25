@@ -196,7 +196,7 @@ En este caso, el servidor nos indica que ha añadido la información correctamen
 
 En este apartado comprobaremos si es cierto que nuestro Cliente Apache2 ha hecho la consulta correctamente. 
 
-	Comandos utilizados ; 
+	Comandos utilizados ; 	show databases;
  				use lamp_db;
  				show tables;
      				select * from users;
