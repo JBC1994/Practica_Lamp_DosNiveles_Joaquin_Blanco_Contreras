@@ -6,8 +6,9 @@
 -    1.2. [Configuración Vagrantfile](#Configuración-Vagrantfile)
 -    1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
 
-2.0. [Despliegue de la herramienta Vagrant](#Despliegue-de-la-herramienta-Vagrant)
-
+2.0. [Despliegue de la herramienta Vagrant](#Despliegue-de-la-herramienta-Vagrant) 
+-    2.1. [Escenario de la practica](#Escenario-de-la-práctica)
+-    2.2. [Configuración Vagrantfile](#Configuración-Vagrantfile)
 
 ## Introducción Pila-Lamp
 
@@ -77,5 +78,10 @@ Bien, para desplegar nuestra herramienta Vagrant con las configuraciones que pre
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/43d0577c-d2e8-4dca-bf88-3ec057fa2567)
 
+Como vemos se han iniciado las dos máquinas correctamente, ahora solo queda conectarse a cada una de ellas por medio del comando "Vagrant ssh "nombre de la maquina", en mi caso he abierto dos ventas de shell de windows para poder trabajar mejor. 
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/36a1f678-993b-403b-a40a-fe154afbe5e0)
+
+He aprovechado y os hice un ping entre las dos máquinas para que se pueda apreciar, que existe conexión entre ellas. De la misma manera la máquina "JoaquinMysql" no debe de tener internet. 
 
 
