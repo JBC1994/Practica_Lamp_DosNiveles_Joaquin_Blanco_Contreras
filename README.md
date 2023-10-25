@@ -111,14 +111,40 @@ En la Máquina Apache2 instaló los servicios de cliente y en la máquina servid
 
 ## Descarga De Repositorios
 
-Una vez aquí empezaremos con la descarga de los repositorios para poder hacer nuestra la práctica, el enlace sería el siguiente. 
-https://github.com/josejuansanchez/iaw-practica-lamp.git
+Una vez aquí empezaremos con la descarga de los repositorios para poder hacer nuestra la práctica, con el enlace que os porporcionaré a continuación ejecutareís el comando **Sudo git clone** ***"URL"***. 
+El enlace sería el siguiente: 
+https://github.com/josejuansanchez/iaw-practica-lamp.git 
 
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/5ff3bf47-ea31-4ab4-ad7b-05ce35fbc1d1)
+
+Automaticamente lo veremos descargado en nuestra carpeta compartida, la razón de descargarlo ahí es, porque la máquina server no puede acceder a internet y necesita la base de datos que proporciona este repositorio, y así poder cargarla a nuestro server "MariaDB".
+Desde la máquina server he copiado dicho repositorio a mi directorio **$HOME**, para poder ejecutar y cargar la BBDD que viene en él.
+Los comandos útilizados para cargar la BBDD son, ***sudo mysql -u root < db/database.sql***
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/4195e05c-df91-4633-9089-35789c89ae89)
 
 ## Configuración De Apache2
 
+En mi caso, para hacerlo mas fácil me copié el repositorio descargado y lo ubiqué en la ruta **/var/www/html/** que es donde Apache2 y Linux guarda sus sitios webs por defecto. Cambié nombre para hacerlo mas orientativo **Practica**.
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/481839e4-90dc-4f3d-98b4-352687dab9b4)
+
+En este caso como vemos dentro de nuestra carpeta **Practica** Tenemos un directorio donde atacar llamado **SRC**, ahí será donde nuestro servidor Apache tendrá que escuchar, para ello iremos a la siguiente ruta:
+***cd /etc/apache2/sites-available/***
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/8d6753ba-4569-48cf-8d38-f175ded36af9)
+
+Ahora editaremos nuestro fichero de configuración para que escuche en la ruta donde teniamos nuestro directorio **Practica/src**. 
+
 
 ## Configuración De MariaDB
+
+Hemos conseguido tener nuestro repositorio en nuestro $HOME, cargar la BBDD a nuestro servidor, pero ahora necesitamos este servidor funcine correctamente, para ello tenemos que editar nuestro fichero de configuración llamado **"50-server.cnf"**, que lo encontraremos en el siguiente directorio. ***/etc/mysql/mariadb.conf.d/50-server.cnf ***.
+De lo que se trata aquí es que el servidor **MariaDB** escuche en su dirección IP propia de la máquina local, en este caso la 172.16.1.3. 
+Gracias a esto prevenimos que nadie pueda acceder a ella desde el exterior, solo en red local, por lo que ganaremos mucha mas seguridad para nuestros datos. 
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/830f4644-0902-4e1c-a5b6-0419024b2b6a)
+
 
 
 ## Pila Lamp en marcha
