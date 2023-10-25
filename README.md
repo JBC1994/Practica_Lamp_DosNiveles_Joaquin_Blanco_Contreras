@@ -1,10 +1,11 @@
 
 ## Índice
 
-1. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
-   1.1. [Escenario de la practica](#Escenario-de-la-práctica)
-   1.2. [Instalación Pila-Lamp](#Instalación-Pila-Lamp)
-   1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
+1.0. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
+1.1. [Escenario de la practica](#Escenario-de-la-práctica)
+1.2. [Instalación Pila-Lamp](#Instalación-Pila-Lamp)
+1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
+2.2
 
 
 ## Introducción Pila-Lamp
@@ -59,11 +60,12 @@ Bien, como vemos en nuestro Vagrantfile tenemos varios apartados que son fundame
 
 Si queremos que nuestro **Vagrantfile** sea productivo junto con nuestras máquinas. Lo correcto sería tener un Script que nos permita automatizar todos los procesos o al menos tener todos los servicios que necesitamos en cada máquina instalados. De esta manera nos ahorraremos tiempo para montar cualquier escenario y poder trabajar en él.
 A continuacion os mostramos los nuestros, los cuales hacen posible esta configuración PilaLamp.
-Este sería el Script para nuestro Apache2.
+
+**Este sería el Script para nuestro Apache2.**
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/c8b2f2e5-a3f5-4fd5-8b85-51ef37aca3a3)
 
-Este último para nuestro Servidor MariaDB.
+**Este último para nuestro Servidor MariaDB.**
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/bf91d03c-374a-4f52-bbd9-c95905fd0a88)
 
