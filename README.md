@@ -11,13 +11,12 @@
 -    2.2. [Carpeta Compartida En Vagrant](#Carpeta-Compartida-En-Vagrant)
 
 3.0. [Descarga De Repositorios](#Descarga-de-repositorios)
--    3.1. [Configuración De Apache2](#Configuración-de-Apache2)
--    3.2. [Configuración De MariaDB](#Configuración-de-MariaDB)
+-    3.1. [Configuración De Cliente Apache2](#Configuración-de-Cliente-Apache2)
+-    3.2. [Configuración De Servidor MariaDB](#Configuración-De-Servidor-MariaDB)
 
 4.0. [Pila Lamp en marcha](#Pila-Lamp-en-marcha) 
--    2.1. [Crear Usuarios con](#Consulta-desde-cliente-a-servidor)
--    2.2. [Carpeta Compartida En Vagrant](#Carpeta-Compartida-En-Vagrant)
-
+-    4.1. [Consulta desde cliente Apache2 A Servidor MariaDB](#Consulta-desde-cliente-Apache2-A-Servidor-MariaDB)
+-    4.2. [Comprobación de consulta con servidor MariaDB](#Comprobación-de-consulta-con-servidor-MariaDB)
 
 ## Introducción Pila-Lamp
 
@@ -123,7 +122,7 @@ Los comandos útilizados para cargar la BBDD son, ***sudo mysql -u root < db/dat
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/4195e05c-df91-4633-9089-35789c89ae89)
 
-## Configuración De Apache2
+## Configuración De Cliente Apache2
 
 En mi caso, para hacerlo mas fácil me copié el repositorio descargado y lo ubiqué en la ruta **/var/www/html/** que es donde Apache2 y Linux guarda sus sitios webs por defecto. Cambié nombre para hacerlo mas orientativo **Practica**.
 
@@ -140,7 +139,7 @@ Ahora editaremos nuestro fichero de configuración ***000-default.conf*** para q
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/8d6753ba-4569-48cf-8d38-f175ded36af9)
 
 
-## Configuración De MariaDB
+## Configuración De Servidor MariaDB
 
 Hemos conseguido tener nuestro repositorio en nuestro $HOME, cargar la BBDD a nuestro servidor, pero ahora necesitamos este servidor funcine correctamente, para ello tenemos que editar nuestro fichero de configuración llamado **"50-server.cnf"**, que lo encontraremos en el siguiente directorio. ***/etc/mysql/mariadb.conf.d/50-server.cnf ***.
 De lo que se trata aquí es que el servidor **MariaDB** escuche en su dirección IP propia de la máquina local, en este caso la 172.16.1.3. 
@@ -175,7 +174,7 @@ Si hemos echo los pasos anteriores correctamente, os debería de salir esto.
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/e6f38554-6b49-4bf6-8dba-1c1cf096e856)
 
 
-## Consulta desde cliente a servidor
+## Consulta desde cliente Apache2 A Servidor MariaDB
 
 En este apartado pondremos a prueba nuestra consulta y veremos si efectivamente esos datos introducidos se han echo correctamente. 
 
@@ -186,11 +185,8 @@ En este caso, el servidor nos indica que ha añadido la información correctamen
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/76313495-7358-4acc-ba6d-527804264f13)
 
 
+## Comprobación de consulta con servidor MariaDB
 
-## Configuración De Servicios
-
-
-## Configuración De Servicios
 
 
 
