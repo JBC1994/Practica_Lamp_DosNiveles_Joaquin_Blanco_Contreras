@@ -189,6 +189,16 @@ En este caso, el servidor nos indica que ha añadido la información correctamen
 
 ## Comprobación de consulta con servidor MariaDB
 
+En este apartado comprobaremos si es cierto que nuestro Cliente Apache2 ha hecho la consulta correctamente. 
+
+	Comandos utilizados ; 
+ 				use lamp_db;
+ 				show tables;
+     				select * from users;
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/511b0211-e031-47f5-9c85-9e79bfb58f44)
+
+
 
 
 
