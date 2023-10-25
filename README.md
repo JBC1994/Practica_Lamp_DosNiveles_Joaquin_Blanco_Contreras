@@ -132,10 +132,14 @@ En mi caso, para hacerlo mas fácil me copié el repositorio descargado y lo ubi
 En este caso como vemos dentro de nuestra carpeta **Practica** Tenemos un directorio donde atacar llamado **SRC**, ahí será donde nuestro servidor Apache tendrá que escuchar, para ello iremos a la siguiente ruta:
 ***cd /etc/apache2/sites-available/***
 
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/3fbf85f4-0ffc-4f5b-8826-e037c675c209)
+
+
+Ahora editaremos nuestro fichero de configuración ***000-default.conf*** para que escuche en la ruta donde teniamos nuestro directorio **Practica/src**. 
+
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/8d6753ba-4569-48cf-8d38-f175ded36af9)
 
-Ahora editaremos nuestro fichero de configuración para que escuche en la ruta donde teniamos nuestro directorio **Practica/src**. 
-
+Hasta aquí, si hemos seguido los pasos, estaría todo correcto. Pero para que funcione nuestro servicio tenemos que indicarle el que modificar el fichero 
 
 ## Configuración De MariaDB
 
@@ -146,9 +150,7 @@ Gracias a esto prevenimos que nadie pueda acceder a ella desde el exterior, solo
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/830f4644-0902-4e1c-a5b6-0419024b2b6a)
 
 
-
 ## Pila Lamp en marcha
-
 
 
 ## Consulta desde cliente a servidor
