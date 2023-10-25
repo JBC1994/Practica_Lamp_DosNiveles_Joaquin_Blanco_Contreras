@@ -21,7 +21,7 @@
 
 
 5.0.[Vagrantfile](#Vagrantfile)
--    5.1. [Configuración Vagrantfile](#Configuración-Vagrantfile)
+-    5.1. [Fichero Vagrantfile](#Fichero-Vagrantfile)
 -    5.1. [Script Aprovisionamiento Apache2](#Script-Aprovisionamiento-Apache2)
 -    5.1. [Script Aprovisionamiento Mysql](#Script-Aprovisionamiento-Mysql)
 
@@ -215,7 +215,7 @@ Vídeo de prueba.
     https://drive.google.com/file/d/1toclZv5NiK4fWScgpWKdZZ3b01COrEYg/view?usp=sharing
 
 
-##Configuración Vagrantfile
+##Fichero Vagrantfile
 
 
 [Uploading # -*- mode: ruby -*-
