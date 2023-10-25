@@ -201,9 +201,8 @@ En este apartado comprobaremos si es cierto que nuestro Cliente Apache2 ha hecho
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/511b0211-e031-47f5-9c85-9e79bfb58f44)
 
+Vídeo de prueba.
 
-
-https://drive.google.com/file/d/1toclZv5NiK4fWScgpWKdZZ3b01COrEYg/view?usp=sharing
-
+    https://drive.google.com/file/d/1toclZv5NiK4fWScgpWKdZZ3b01COrEYg/view?usp=sharing
 
 
