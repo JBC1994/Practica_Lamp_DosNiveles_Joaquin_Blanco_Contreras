@@ -45,6 +45,7 @@ Ahora os mostraremos nuestro Vagrantfile modificado.
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/1241a52a-ece2-4722-bda0-e9c7afe9479d)
 
 Bien, como vemos en nuestro Vagrantfile tenemos varios apartados que son fundamentales, con los que tenemos que familiarizarnos y saber lo que estamos haciendo. 
+
 	 **m1.vm.hostname = "Nombre de la máquina"
   		m1.vm.network "private_network", ip: "Red que queremos que la máquina tenga"
 		m1.vm.provision "shell", path: "Script de aprovisionamiento"
