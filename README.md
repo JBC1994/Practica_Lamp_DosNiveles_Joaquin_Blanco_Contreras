@@ -8,7 +8,7 @@
 
 2.0. [Despliegue de la herramienta Vagrant](#Despliegue-de-la-herramienta-Vagrant) 
 -    2.1. [Escenario de la practica](#Escenario-de-la-práctica)
--    2.2. [Configuración Vagrantfile](#Configuración-Vagrantfile)
+-    2.2. [Carpeta Compartida En Vagrant](#Carpeta-Compartida-En-Vagrant)
 
 ## Introducción Pila-Lamp
 
@@ -83,5 +83,24 @@ Como vemos se han iniciado las dos máquinas correctamente, ahora solo queda con
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/36a1f678-993b-403b-a40a-fe154afbe5e0)
 
 He aprovechado y os hice un ping entre las dos máquinas para que se pueda apreciar, que existe conexión entre ellas. De la misma manera la máquina "JoaquinMysql" no debe de tener internet. 
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/c131b2e3-b710-4ae4-ba46-73c0a276dadb)
+
+
+## Carpeta Compartida En Vagrant
+
+Ahora tenemos que comprobar que nuestra carpeta compartida funciona. Para ello nos dirigimos a la raiz del sistema donde la encontraremos con el nombre **"vagrant"**.
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/86681a27-a6bb-4c48-8ee4-0dd6c8419d11)
+
+Como vemos todo funciona correctamente, pero, ¿Tenemos instalados los servicios proporcionados que pusimos en el script de provisionamiento?
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/2fdd861f-a89c-4f46-b364-25cadb0e89eb)
+
+Pues efectivamente nuestro Script se ejecutó con éxito cuando iniciamos nuestra herramienta vagrant. 
+En la Máquina Apache2 instalo los servicios de cliente y en la máquina servidor instaló el servidor MariaDB.
+
+
+
 
 
