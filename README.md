@@ -165,8 +165,26 @@ Hasta aqui, para poder poner en marcha nuestra prueba nos quedaría editar en la
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/dd3f0f5a-6540-4ac8-80ea-ff2c9ccb077b)
 
+Recordemos que para que los cambios se efectuen correctamente en el servidor **"Apache2"** Tenemos que hacer un restart.
+
+	sudo systemctl apache2 restart
+
+Ahora accedemos a nuestro navegador web, y accedemos a la IP de nuestro servidor **Apache2**. 
+Si hemos echo los pasos anteriores correctamente, os debería de salir esto. 
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/e6f38554-6b49-4bf6-8dba-1c1cf096e856)
+
 
 ## Consulta desde cliente a servidor
+
+En este apartado pondremos a prueba nuestra consulta y veremos si efectivamente esos datos introducidos se han echo correctamente. 
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/d617228e-5b15-45f9-ae5c-ec6a5df48047)
+
+En este caso, el servidor nos indica que ha añadido la información correctamente, successfully!!
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/76313495-7358-4acc-ba6d-527804264f13)
+
 
 
 ## Configuración De Servicios
