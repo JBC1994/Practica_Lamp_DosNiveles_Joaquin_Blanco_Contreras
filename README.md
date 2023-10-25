@@ -135,11 +135,10 @@ En este caso como vemos dentro de nuestra carpeta **Practica** Tenemos un direct
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/3fbf85f4-0ffc-4f5b-8826-e037c675c209)
 
 
-Ahora editaremos nuestro fichero de configuración ***000-default.conf*** para que escuche en la ruta donde teniamos nuestro directorio **Practica/src**. 
+Ahora editaremos nuestro fichero de configuración ***000-default.conf*** para que escuche en la ruta de nuestro directorio **Practica/src**. 
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/8d6753ba-4569-48cf-8d38-f175ded36af9)
 
-Hasta aquí, si hemos seguido los pasos, estaría todo correcto. Pero para que funcione nuestro servicio tenemos que indicarle el que modificar el fichero 
 
 ## Configuración De MariaDB
 
@@ -149,8 +148,22 @@ Gracias a esto prevenimos que nadie pueda acceder a ella desde el exterior, solo
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/830f4644-0902-4e1c-a5b6-0419024b2b6a)
 
+Bien, una vez modificado nuestro fichero, crearemos un usuario con privilegios para que pueda acceder a cualquier base de datos, OJO esto es una prueba... **Lo correcto sería que le demos permiso a ese usuario a una base de datos en concreto.**
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/cb5d6919-9293-4f43-9013-b12352a98ce4)
+
+La IP indicada en la prática es la del cliente Apache2, que será desde donde hagamos la consulta al servidor. 
+	
+ 	Comandos utilizado para la creación de usuario : CREATE USER 'joaquin'@'172.16.1.2' IDENTIFIED BY 'joaquinpass';
+  	GRANT ALL PRIVILEGES ON *.* TO 'joaquin'@'172.16.1.2';
+	FLUSH PRIVILEGES; -> Para actualizar los cambios.
+
 
 ## Pila Lamp en marcha
+
+Hasta aqui, para poder poner en marcha nuestra prueba nos quedaría editar en la parte del cliente **Apache2** el fichero **Config.php** ubicado en nuestro directorio **/var/www/html/Practica/src**, Al que tenedremos que cambiarle la IP con la cual se va a hacer la llamada a nuestro servidor **MariaDB**, la base de datos la cual queremos tratar, nuestro usuario creado en nuestro servidor MariaDB y nuestra password.
+
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/dd3f0f5a-6540-4ac8-80ea-ff2c9ccb077b)
 
 
 ## Consulta desde cliente a servidor
