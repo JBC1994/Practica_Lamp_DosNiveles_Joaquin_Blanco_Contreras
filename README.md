@@ -59,6 +59,7 @@ Desde este enlace podremos ver los box que tiene vagrant. https://app.vagrantup.
 ***La ventaja de este box es que nos permite montar carpetas entre las dos máquinas sin errores de montaje.***
 
 Ahora os mostraremos nuestro Vagrantfile modificado. 
+
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/1241a52a-ece2-4722-bda0-e9c7afe9479d)
 
 Bien, como vemos en nuestro Vagrantfile tenemos varios apartados que son fundamentales, con los que tenemos que familiarizarnos y saber lo que estamos haciendo. 
@@ -69,7 +70,7 @@ Bien, como vemos en nuestro Vagrantfile tenemos varios apartados que son fundame
 		m1.vm.synced_folder "Nuestra carpeta compartida"
 		m1.vm.network "forwarded_port", guest: "Puerto Local de la máquina", host:"Puerto a través del cual queremos redirigir la salida de la máquina"**
   
-## Script-De-Aprovisionamiento
+## Script De Aprovisionamiento
 
 Si queremos que nuestro **Vagrantfile** sea productivo junto con nuestras máquinas. Lo correcto sería tener un Script que nos permita automatizar todos los procesos o al menos tener todos los servicios que necesitamos en cada máquina instalados. De esta manera nos ahorraremos tiempo para montar cualquier escenario y poder trabajar en él.
 A continuación os mostramos los nuestros, los cuales hacen posible esta configuración PilaLamp.
