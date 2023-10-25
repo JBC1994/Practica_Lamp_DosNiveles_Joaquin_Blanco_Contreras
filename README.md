@@ -186,6 +186,9 @@ En este caso, el servidor nos indica que ha añadido la información correctamen
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/76313495-7358-4acc-ba6d-527804264f13)
 
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/079a3a46-491b-4389-a534-a786a8a197f7)
+
+
 
 ## Comprobación de consulta con servidor MariaDB
 
