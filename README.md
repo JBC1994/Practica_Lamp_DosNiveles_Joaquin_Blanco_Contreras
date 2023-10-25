@@ -2,13 +2,22 @@
 
 
 1.0. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
--    1.1. [Escenario de la practica](#Escenario-de-la-práctica)
+-    1.1. [Escenario De La practica](#Escenario-de-la-práctica)
 -    1.2. [Configuración Vagrantfile](#Configuración-Vagrantfile)
 -    1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
 
-2.0. [Despliegue de la herramienta Vagrant](#Despliegue-de-la-herramienta-Vagrant) 
--    2.1. [Escenario de la practica](#Escenario-de-la-práctica)
+2.0. [Despliegue De La herramienta Vagrant](#Despliegue-de-la-herramienta-Vagrant) 
+-    2.1. [Escenario De La practica](#Escenario-de-la-práctica)
 -    2.2. [Carpeta Compartida En Vagrant](#Carpeta-Compartida-En-Vagrant)
+
+3.0. [Descarga De Repositorios](#Descarga-de-repositorios)
+-    3.1. [Configuración De Apache2](#Configuración-de-Apache2)
+-    3.2. [Configuración De MariaDB](#Configuración-de-MariaDB)
+
+4.0. [Pila Lamp en marcha](#Pila-Lamp-en-marcha) 
+-    2.1. [Crear Usuarios con](#Consulta-desde-cliente-a-servidor)
+-    2.2. [Carpeta Compartida En Vagrant](#Carpeta-Compartida-En-Vagrant)
+
 
 ## Introducción Pila-Lamp
 
@@ -99,6 +108,30 @@ Como vemos todo funciona correctamente, pero, ¿Tenemos instalados los servicios
 
 Pues efectivamente nuestro Script se ejecutó con éxito cuando iniciamos nuestra herramienta vagrant. 
 En la Máquina Apache2 instaló los servicios de cliente y en la máquina servidor instaló el servidor MariaDB.
+
+## Descarga De Repositorios
+
+Una vez aquí empezaremos con la descarga de los repositorios para poder hacer nuestra la práctica, el enlace sería el siguiente. 
+https://github.com/josejuansanchez/iaw-practica-lamp.git
+
+
+## Configuración De Apache2
+
+
+## Configuración De MariaDB
+
+
+## Pila Lamp en marcha
+
+
+
+## Consulta desde cliente a servidor
+
+
+## Configuración De Servicios
+
+
+## Configuración De Servicios
 
 
 
