@@ -98,7 +98,7 @@ Como vemos todo funciona correctamente, pero, ¿Tenemos instalados los servicios
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/2fdd861f-a89c-4f46-b364-25cadb0e89eb)
 
 Pues efectivamente nuestro Script se ejecutó con éxito cuando iniciamos nuestra herramienta vagrant. 
-En la Máquina Apache2 instalo los servicios de cliente y en la máquina servidor instaló el servidor MariaDB.
+En la Máquina Apache2 instaló los servicios de cliente y en la máquina servidor instaló el servidor MariaDB.
 
 
 
