@@ -4,7 +4,7 @@
 1. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
    1.1. [Escenario de la practica](#Escenario-de-la-práctica)
    1.2. [Instalación Pila-Lamp](#Instalación-Pila-Lamp)
-   1.3. [Importancia de la Pila LAMP](#importancia-de-la-pila-lamp)
+   1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
 
 
 ## Introducción Pila-Lamp
@@ -40,14 +40,13 @@ Antes que nada, trabajaremos con el siguiente box, ***config.vm.box = "debian/co
 Desde este enlace podremos ver los box que tiene vagrant. https://app.vagrantup.com/boxes/search
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/90795c2e-3296-470c-847f-02cffe81b084)
 
-La ventaja de este box es que nos permite montar carpetas entre las dos máquinas sin errores de montaje. 
+***La ventaja de este box es que nos permite montar carpetas entre las dos máquinas sin errores de montaje.***
 
 Ahora os mostraremos nuestro Vagrantfile modificado. 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/00f62e85-e989-47a6-a7cb-6dc509897e9d)
 
 
-
-## Componentes de la Pila LAMP
+## Script-De-Aprovisionamiento
 
 En esta sección, se describen los componentes de la Pila LAMP.
 
