@@ -6,7 +6,7 @@
 -    1.2. [Configuración Vagrantfile](#Configuración-Vagrantfile)
 -    1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
 
-2.0. [Despliegue vagrant](#Introducción-Pila-Lamp)
+2.0. [Despliegue de la herramienta Vagrant](#Despliegue-de-la-herramienta-Vagrant)
 
 
 ## Introducción Pila-Lamp
@@ -27,8 +27,8 @@ Nuestra práctica consistirá en lo siguiente: Tendremos dos máquinas con dos s
 
 ## Configuración Vagrantfile
 
-Procederemos a desarrollar el escenario mencionado antes con nuestro Vagrantfile, pero antes de eso procederemos a configurar todo nuestro entorno. 
-Antes que nada, necesitamos tener instalado vagrant.
+Procederemos a desarrollar el escenario mencionado con nuestro Vagrantfile. 
+Antes que nada, necesitamos tener instalado vagrant desde su pagina oficial e instalarlo.
 Una vez instalado vagrant, nos dirigimos al directorio donde vayamos a trabajar y ejecutamos la shell terminal de windows, en mi caso lo hice así. 
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/08dd2c7c-2039-400a-9e84-f78de5cd2dac)
@@ -71,8 +71,11 @@ A continuacion os mostramos los nuestros, los cuales hacen posible esta configur
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/bf91d03c-374a-4f52-bbd9-c95905fd0a88)
 
 
-## Importancia de la Pila LAMP
+## Despliegue de la herramienta Vagrant
 
-Esta parte aborda la importancia de la Pila LAMP en el desarrollo web.
+Bien, para desplegar nuestra herramienta Vagrant con las configuraciones que previamente hemos echo, es tan fácil como acceder a nuestra terminal de windows shell en el directorio donde tenemos nuestro escenario y hacer un **"Vagrant up"** , Esto hará que la ejecución de las máquinas junto con sus configuraciones sean efectivas a los cambios propocionados. 
 
-[...]
+![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/43d0577c-d2e8-4dca-bf88-3ec057fa2567)
+
+
+
