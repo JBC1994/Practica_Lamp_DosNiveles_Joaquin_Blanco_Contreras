@@ -3,9 +3,10 @@
 
 1.0. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
 -    1.1. [Escenario de la practica](#Escenario-de-la-práctica)
--    1.2. [Instalación Pila-Lamp](#Instalación-Pila-Lamp)
+-    1.2. [Configuración Vagrantfile](#Configuración-Vagrantfile)
 -    1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
-2.0. [Práctica ](#Script-De-Aprovisionamiento)
+
+2.0. [Despliegue vagrant](#Introducción-Pila-Lamp)
 
 
 ## Introducción Pila-Lamp
@@ -24,7 +25,7 @@ Nuestra práctica consistirá en lo siguiente: Tendremos dos máquinas con dos s
 4) Obligatorio tener una carpeta compartida entre ambas máquinas.
 5) Trabajaremos con las IP 's que se representan en el esquema, puerto 80 al 9000 en la máquina Apache2.
 
-## Instalación Pila-Lamp
+## Configuración Vagrantfile
 
 Procederemos a desarrollar el escenario mencionado antes con nuestro Vagrantfile, pero antes de eso procederemos a configurar todo nuestro entorno. 
 Antes que nada, necesitamos tener instalado vagrant.
