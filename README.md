@@ -1,13 +1,11 @@
-
 ## <p align="center">Índice</p>
 
 
-
-1.0. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
-1.1. [Escenario de la practica](#Escenario-de-la-práctica)
-1.2. [Instalación Pila-Lamp](#Instalación-Pila-Lamp)
-1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
-2.0. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
+- 1.0. [Introducción Pila-Lamp](#Introducción-Pila-Lamp)
+-    1.1. [Escenario de la practica](#Escenario-de-la-práctica)
+-    1.2. [Instalación Pila-Lamp](#Instalación-Pila-Lamp)
+-    1.3. [Script De Aprovisionamientos](#Script-De-Aprovisionamiento)
+- 2.0. [Práctica ](#Script-De-Aprovisionamiento)
 
 
 ## Introducción Pila-Lamp
