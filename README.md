@@ -130,7 +130,7 @@ https://github.com/josejuansanchez/iaw-practica-lamp.git
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/5ff3bf47-ea31-4ab4-ad7b-05ce35fbc1d1)
 
-Automáticamente lo veremos descargado en nuestra carpeta compartida, la razón de descargarlo ahí es, porque la máquina server no puede acceder a internet y necesita la base de datos que proporciona este repositorio, y así poder cargarla a nuestro server "MariaDB".
+Automáticamente lo veremos descargado en nuestra carpeta compartida, la razón de descargarlo ahí es porque la máquina server no puede acceder a internet, y necesita la base de datos que proporciona este repositorio para poder cargarla a nuestro server "MariaDB".
 Desde la máquina server he copiado dicho repositorio a mi directorio **$HOME**, para poder ejecutar y cargar la BBDD que viene en él.
 Los comandos utilizados para cargar la BBDD son, ***sudo mysql -u root < db/database.sql***
 
@@ -138,7 +138,7 @@ Los comandos utilizados para cargar la BBDD son, ***sudo mysql -u root < db/data
 
 ## Configuración De Cliente Apache2
 
-En mi caso, para hacerlo más fácil me copié el repositorio descargado y lo ubiqué en la ruta **/var/www/html/** que es donde Apache2 y Linux guardan sus sitios webs por defecto. Cambié nombre para hacerlo mas orientativo **Práctica**.
+En mi caso, para hacerlo más fácil me copié el repositorio descargado y lo ubiqué en la ruta **/var/www/html/** que es donde Apache2 y Linux guardan sus sitios webs por defecto. Cambié el nombre para hacerlo mas orientativo, en este caso **"Práctica"**.
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/481839e4-90dc-4f3d-98b4-352687dab9b4)
 
