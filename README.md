@@ -79,10 +79,20 @@ A continuación os mostramos los nuestros, los cuales hacen posible esta configu
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/c8b2f2e5-a3f5-4fd5-8b85-51ef37aca3a3)
 
+	1) sudo apt-get -y update   (Actualizamos repositorios).
+	2) sudo apt-get install -y apache2 (Instalamos los servicios **Apache2** aceptando los mensajes de confirmación en la instalación con **-y**.).
+	3) sudo apt-get install -y git (Instalamos los servicios **Github** aceptando los mensajes de confirmación en la instalación con **-y**.).
+	4) sudo apt-get install -y php libapache2-mod-php php-mysql (Instalamos el servicio **php** aceptando los mensajes de confirmación de instalación con **-y**.).
+	5) sudo apt-get install -y mariadb-client-10.3  (Instalamos el servicio **MariaDB-Cliente** aceptando los mensajes de confirmación de instalación con **-y**.).
+
 **Este último para nuestro Servidor MariaDB.**
 
 ![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/bf91d03c-374a-4f52-bbd9-c95905fd0a88)
 
+	1) sudo apt -y update (Actualizamos repositorios).
+	2) sudo apt install -y mariadb-server-10.3 (Instalamos el servidor de **MariaDB-Server** aceptando los mensajes de confirmación en la instalación con **-y**.).
+	3) echo "No necesitas internet como servidor MariaDB" (Mensaje de orientación al siguiente paso que va a hacer.).
+	4) sudo ip route del default (Quitamos nuestra puerta de enlace por defecto para que la máquina no tenga salida a internet.).
 
 ## Despliegue de la herramienta Vagrant
 
