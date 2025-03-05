@@ -32,7 +32,7 @@ Nuestra práctica consistirá en lo siguiente: Tendremos dos máquinas con dos s
 1) Tenemos una máquina con conexión a internet NAT, está será en la que tengamos los servicios "Apache" , "PHP", MariaDB-client instalados, a su vez tiene que hacer ping con nuestro servidor "MariaDB".
 2) Tenemos una segunda máquina como hemos mencionado anteriormente en la cual tendremos instalado el Servidor "MariaDB", está no tendrá salida a internet, pero si podrá hacer ping con el servidor apache.
 
-![image](https://github.com/JBC1994/Practica_Lamp_DosNiveles_Joaquin_Blanco_Contreras/assets/120668110/df903f78-0af6-42e8-aa14-086280cea2aa)
+![image](https://github.com/user-attachments/assets/8adcdd6b-8bc9-486c-b7d0-b3f0a45c754c)
 
 4) Obligatorio tener una carpeta compartida entre ambas máquinas.
 5) Trabajaremos con las IP 's que se representan en el esquema, puerto 80 al 9000 en la máquina Apache2.
